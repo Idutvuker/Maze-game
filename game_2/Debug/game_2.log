@@ -1,0 +1,35 @@
+﻿Сборка начата 03.10.2015 17:50:36.
+     1>Проект "C:\Users\Nick\documents\visual studio 2013\Projects\game_2\game_2\game_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main32.cpp
+         main32.cpp
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(71): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(164): warning C4244: аргумент: преобразование "float" в "sf::Uint8", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(257): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(260): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(264): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(269): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(316): warning C4101: r: неиспользованная локальная переменная
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(415): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(434): warning C4305: инициализация: усечение из "double" к "float"
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(477): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(542): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(564): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(598): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(598): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(601): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(611): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(626): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(641): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(656): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(667): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(772): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\nick\documents\visual studio 2013\projects\game_2\game_2\main32.cpp(774): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nick\documents\visual studio 2013\Projects\game_2\Debug\game_2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nick\documents\visual studio 2013\Projects\game_2\Debug\game_2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nick\documents\visual studio 2013\Projects\game_2\Debug\game_2.lib" /MACHINE:X86 Debug\main32.obj
+         game_2.vcxproj -> C:\Users\Nick\documents\visual studio 2013\Projects\game_2\Debug\game_2.exe
+     1>Сборка проекта "C:\Users\Nick\documents\visual studio 2013\Projects\game_2\game_2\game_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.55
